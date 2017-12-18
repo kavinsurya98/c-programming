@@ -1,6 +1,7 @@
-#include<stdio.h>
-int main()
-{
+#include <stdio.h>
+ 
+int main(void) {
+ 
 	printf("HI GUVI");
-    return 0;
+return 0;
 }
