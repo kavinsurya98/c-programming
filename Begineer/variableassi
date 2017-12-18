@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	char name[100]="Sachin Ramesh Tendulkar";
+    char nick[100]="Little Master";
+    int runs=18426;
+    float average=44.83;
+    int total=463;
+    printf("%s\n",name);
+    printf("%s\n",nick);
+    printf("%d\n",runs);
+    printf("%f\n",average);
+    printf("%d",total);
+    return 0;
+ }
