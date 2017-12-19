@@ -1,0 +1,14 @@
+    #include<stdio.h>
+    int main()
+    {
+    	int a,b,c,d,e,g;
+    	scanf("%d",&a);
+    	b=a;
+    	c=b*10+a;
+    	d=c*10+a;
+    	e=d*10+a;
+    	g=b+c+d+e;
+    	printf("The value of a+aa+aaa+aaaa=%d",g);
+     
+    }
+
