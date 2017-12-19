@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-	int a,b,c;
-	printf("Enter the a,b,c:");
+	int a=34,b=44,c=87;
 	scanf("%d%d%d",&a,&b,&c);
 	if((a>b)&&(a>c))
 	{
