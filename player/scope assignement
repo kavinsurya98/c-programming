@@ -1,0 +1,16 @@
+#include <stdio.h>
+int gcount=30;
+int main()
+{
+	int i,n;
+	int lcount=10;
+	printf("Enter the number less than 5\n:");
+	scanf("%d",&n);
+	if(n<5)
+	{
+		int bcount=100;
+		printf("The block count:%d\n",bcount);
+	}
+	printf("The local count:%d\n",lcount);
+	printf("The global count:%d\n",gcount);
+}
