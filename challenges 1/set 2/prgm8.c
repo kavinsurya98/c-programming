@@ -1,17 +1,21 @@
+
 #include<stdio.h>
 int main(void)
 {
-	int n,ams=0,temp,rem;
-	scanf("%d",&n);
-	temp=n;
-	while(n>0)
+	int low,upp,n,i;
+	scanf("%d%d",&low,&upp);
+	for(i=low;i<=upp;i++)
 	{
-		rem=n%10;
-		ams=ams+(rem*rem*rem);
-		n=n/10;
+		int rev=0,ams=0;
+		n=i;
+		while(n!=0)
+		{
+			rev=n%10;
+			ams=ams+(rev*rev*rev);
+			n=n/10;
+			
+		}
+		if(i==ams)
+		printf("%d\n",i);
 	}
-	if(temp==ams)
-	printf("Yes");
-	else
-	printf("No");
 }
