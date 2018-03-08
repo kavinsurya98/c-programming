@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-	int n,i,count=0,m,p;
+	int n,i,count=0,m=1,p=2;
 	scanf("%d",&n);
 	do
 	{
@@ -14,3 +14,5 @@ int main(void) {
 	printf("%d",m);
 	return 0;
 }
+
+
