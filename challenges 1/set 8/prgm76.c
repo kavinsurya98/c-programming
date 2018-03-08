@@ -1,3 +1,4 @@
+//composite number
 #include <stdio.h>
 int main(void) 
 {
